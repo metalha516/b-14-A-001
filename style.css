@@ -120,6 +120,7 @@
 
 .speaker-section .card-holder .card{
     border: 1px solid rgba(128, 128, 128, 0.178);
+    border-radius: 15px;
 }
 
 .speaker-section .card-holder .card .img-part img{
@@ -130,7 +131,21 @@
 .speaker-section .card-holder .card .text-part{
     padding: 2rem;
 }
+.speaker-section .card-holder .card .text-part .tag{
+    font-size: 12;
+    font-weight: 400;
+    color:#2563EB;
+}
 .speaker-section .card-holder .card .text-part .s-name{
     padding: 1.5rem 0;
+    font-size: 20px;
+    font-weight: 800;
+    color: #0D1B2A;
 }
+
+.speaker-section .card-holder .card .text-part .desc{
+    font-size: 14px;
+    color: #575757;
+}
+
 
