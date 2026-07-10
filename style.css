@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1551px;
+    padding: 0 20px;
+}
+
+.header .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.8rem;
+}
+
+.header .nav-bar img{
+    width: 134px;
+    height: 44px
+}
+
+.header .nav-bar ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 24px;
+}
+.header .nav-bar ul .nav-item{
+    
+    font-size: 20px;
+    color: #575757;   
+}
+
+.btn{
+    padding: 12px 12px;
+    border-radius: 8px;
+    border:none;
+    background: #1D4ED8;
+    color: white;
+    
+    font-weight: bold;
+}
+
+.hero-section{
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 0.5)),
+    url("./img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section .text-div{
+    padding: 8rem;
+    width: 55rem;
+}
+
+.hero-section .text-div .main-text{
+    font-size: 80px;
+    color: white;
+    
+}
+.hero-section .text-div .sub-text{
+    font-size: 22px;
+    padding: 1rem;
+    color: white;
+    
+    font-weight: 200;
+}
+
+.cnt{
+    font-style: italic !important;
+}
+
+.blank-space{
+    height: 16rem;
+}
+
+.hero-section .buton-div{
+    margin-bottom: 5rem;
+}
+
+
+.hero-section .buton-div .hero-btn{
+    width: 282px;
+    height: 72px;
+    font-size: 24px;
+    
+}
+
+.speaker-section{
+    display: flex;
+    padding: 5rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.speaker-section .main-text{
+    text-align: center;
+    font-size: 56px;
+    color: #000102;
+}
+
+.speaker-section .card-holder{
+    display: grid;
+    padding: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.speaker-section .card-holder .card{
+    border: 1px solid rgba(128, 128, 128, 0.178);
+}
+
+.speaker-section .card-holder .card .img-part img{
+    width: 100%;
+}
+
+
+.speaker-section .card-holder .card .text-part{
+    padding: 2rem;
+}
+.speaker-section .card-holder .card .text-part .s-name{
+    padding: 1.5rem 0;
+}
+
